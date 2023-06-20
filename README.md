@@ -1,10 +1,14 @@
 # learn-bicep-azure
 
-Bicep is a Domain Specific Language that uses declarative syntax to deploy Azure resources.
+- Bicep is a Domain Specific Language that uses declarative syntax to deploy Azure resources.
 
-Define infrastructure in Bicep file to deploy the resources in Azure.
+- Define infrastructure in Bicep file to deploy the resources in Azure.
 
-Deploy the resources in consistent manner using Bicep.
+- Deploy the resources in consistent manner using Bicep.
+
+- Bicep is a transparent abstraction over ARM template JSON and doesn't lose any of the JSON template capabilities.
+
+- Use Bicep instead of JSON to develop your Azure Resource Manager templates (ARM templates)
 
 Benefits:
 
