@@ -1,5 +1,7 @@
 # learn-bicep-azure
 
+This repo give a quick demo of using Bicep to deploy resource in Azure.
+
 <h2>Overview:</h2>
 
 - Bicep is a Domain Specific Language that uses declarative syntax to deploy Azure resources.
@@ -24,9 +26,8 @@
 - Preview Changes using what-if operation
 - No state or state file to manage
 
-This repo give a quick demo of using Bicep to deploy resource in Azure.
 
-main.bicep file contains the infrastructure details (vnet and storage account) that to be deployed.
+The main.bicep file contains the infrastructure details (vnet and storage account) that to be deployed.
 
 <h2> Deploy the bicep file:</h2>
 az group create --name demoRG --location eastus
